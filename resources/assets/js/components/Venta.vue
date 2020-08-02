@@ -561,7 +561,7 @@
                 });
             },
             pdfVenta(id){
-                window.open('http://198.211.109.130/venta/pdf/'+ id + ',' + '_blank');
+                window.open('http://198.211.109.130/venta/pdf/'+ id);
             },
             cambiarPagina(page,buscar,criterio){
                 let me = this;
@@ -691,7 +691,7 @@
                     me.codigo='';
                     me.descuento=0;
                     me.arrayDetalle=[];
-                    window.open('http://198.211.109.130/venta/pdf/'+ response.data.id + ',' + '_blank');
+                    window.open('http://198.211.109.130/venta/pdf/'+ response.data.id);
 
                 }).catch(function (error) {
                     console.log(error);

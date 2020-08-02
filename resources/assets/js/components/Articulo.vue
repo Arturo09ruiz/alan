@@ -251,7 +251,7 @@
                 });
             },
             cargarPdf(){
-                window.open('http://198.211.109.130/articulo/listarPdf','_blank');
+                window.open('http://198.211.109.130/articulo/listarPdf');
             },
             selectCategoria(){
                 let me=this;
